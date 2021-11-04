@@ -73,12 +73,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"meeting-room"
-                }, 
-                {
-                 "name":"openWebsite",
-                 "type":"string",
-                 "value":"https:\/\/www.google.com"
+                 "value":"retro-room"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -96,7 +91,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"meeting-room"
+                 "value":"dsu3"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -114,7 +109,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"meeting-room"
+                 "value":"dsu2"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -132,7 +127,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"meeting-room"
+                 "value":"dsu1"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -165,7 +160,7 @@
          "name":"bottom",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":46,
          "x":0,
          "y":0
