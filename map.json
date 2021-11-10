@@ -163,7 +163,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"{{{testUrl}}}"
+                 "value":"{{{ testUrl }}}"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -386,7 +386,7 @@
                         {
                          "name":"default",
                          "type":"string",
-                         "value":"toto.html"
+                         "value":"test.html"
                         }],
                  "rotation":0,
                  "type":"variable",
