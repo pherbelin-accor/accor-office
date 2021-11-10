@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <script src="https://play.workadventu.re/iframe_api.js"></script>
+ </head>
+<body>
+
+<iframe src='https://accor-it.atlassian.net/jira/software/c/projects/DAPP/boards/1161/reports/burndown-chart?sprint=3467'>
+<script>
+//window.alert(5 + 6);
+WA.onInit().then(() => {
+    console.log('Room id: ', WA.room.id);
+})
+WA.room.onEnterZone('testZone', () => {
+    WA.chat.sendChatMessage("You found me!", 'Mysterious traveler');
+})
+</script>
+
+</body>
+</html>
