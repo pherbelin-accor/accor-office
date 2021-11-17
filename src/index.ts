@@ -8,7 +8,7 @@ bootstrapExtra().catch(e => console.error(e));
 let currentPopup: any = undefined;
 
 WA.state.onVariableChange('freeze players').subscribe((value: boolean) => {
-  if (value == true && WA.player.name == 'Pierre'){
+  if (value == true && WA.player.name != 'Pierre'){
     WA.controls.disablePlayerControls();
   } else {
     WA.controls.restorePlayerControls();
