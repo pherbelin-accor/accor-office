@@ -42,3 +42,24 @@ function closePopUp(){
         currentPopup = undefined;
     }
 }
+
+
+function sendHttpsRequest(playerName: String){
+  var httpRequest = new XMLHttpRequest();
+  httpRequest.open("POST", "https://reqbin.com/echo/post/json");
+  //xhr.setRequestHeader("Accept", "application/json");
+  //xhr.setRequestHeader("Content-Type", "application/json");
+
+  httpRequest.onreadystatechange = function () {
+     if (httpRequest.readyState === 4) {
+        console.log(httpRequest.status);
+        console.log(httpRequest.responseText);
+     }};
+
+  var data = `{
+    "test": "toto"
+  }`;
+
+  httpRequest.send(data);
+
+}
